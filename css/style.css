@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-head{
+    width: 95%;
+    margin: auto;
+}
+header{
+    height: 80px;
+    background-color: rgb(172, 170, 170);
+    padding: 10px 0px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-content .brand{
+    font-size: 20px ;
+    text-decoration: none;
+    color: rgb(149, 98, 11);
+    padding: 5px;
+    margin: 20px  0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav li a {
+    display: block;
+    color:rgb(149, 98, 11); 
+    min-width:100px ;      
+    padding: 5px;
+    margin: 10px  0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+::placeholder, .select {
+    color: black;
+    font-weight: bold;
+  }
+.container-login{
+    background-color: rgb(247, 244, 244);
+    padding: 20px;
+    font-weight: bold;
+}
+.section-form form .i{
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    height: 30px;
+    border: 1px solid rgb(154, 118, 56);
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.form-check .form-check-input{
+    float: left;
+}
+/*//////////////////////////////////////////////////////////////////*/
+.card-title{
+    font-weight: bold;
+}
+.add-to-cart{
+    background-color:rgb(149, 98, 11);
+    color: white;
+}
+.card-img-top{
+    width: 300px;
+    margin: auto;
+}
+.card-body .fas{
+    font-size: 25px;
+   cursor: pointer;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+nav ul#user-info li i{
+       color: rgb(154, 118, 56);
+       font-size: 25px;
+       cursor: pointer;
+       margin-top: 18px;
+}
+nav ul#user-info li{
+    margin: 8px 10px; 
+    font-size: 22px;
+}
+nav ul#user-info li .badge{
+    position: absolute;
+    color: rgb(154, 118, 56);
+    display: block;
+    top:55px;
+    right: 150px;
+    font-size: 15px;
+   display: none;
+}
+/*/////////////////////////////////////////////////////////////////*/
+
+.cart-products{
+    position: absolute;
+    width: 210px;
+    transform:translate(-40px,0);
+    background-color: #eaeaea;
+    top: 80px;
+    padding: 10px;
+    border: 1px solid green; 
+    z-index: 4;
+    display: none;
+}
+.cart-products a{
+    display: block;
+    color: #000;
+    margin: 4px 0;
+    padding: 0;
+    background-color: rgb(154, 118, 56);
+    color:#fff;
+    text-align: center;
+    text-decoration: none;
+}
+.cart-products {
+  width: 232px;
+}
+.card:hover{
+ border: 1px solid rgb(149, 98, 11);
+ transform: scale(1.01,1.01);
+ transition: 0.2s;
+}
+/***************************************************************cartproducts page*******************************************************/
+.Productincart{
+    border-radius: 20px;
+    padding: 40px;
+    display: inline-block;
+    width: 49%;
+    background-color: rgb(204, 204, 204);
+}
+.imgInfo{
+    margin-left: 90px;
+}
+.plus, .minus{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.removebtn{
+   background-color: red;
+}
+
+.favproduct{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.favimg{
+    border-radius: 20px;
+}
+.plus{
+    color: red;
+}
+.minus{
+   color: green;
+}
+.cart-products div p{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.productscart{
+    font-weight: bold;
+}
